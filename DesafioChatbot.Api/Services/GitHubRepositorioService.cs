@@ -11,7 +11,7 @@ namespace DesafioChatbot.Api.Services
         {
             _httpClient = httpClient;
             _httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("Blip");
-            _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "");
+            _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "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");
         }
 
         public async Task<IEnumerable<GitHubRepositorio>> ObterTop5RepositoriosAntigosDeCSharp()
